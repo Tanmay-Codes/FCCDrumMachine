@@ -19,9 +19,9 @@ function DrumKit() {
     return (
     <div className='container' >
     <div id="drum-machine">
-        <div className='drum-pad'>
+        <div className='drum-pad-container'>
             {data.map(item=> <React.Fragment key={item.id} >
-                <button className='pad-button' onClick={()=>playAudio(item.key.toLowerCase())} ><audio id={item.key} className={item.key.toLowerCase() + "clip"} src={item.instrument}></audio>{item.key}</button>
+                <button className='drum-pad'id={item.key} onClick={()=>playAudio(item.key.toLowerCase())} ><audio type="audio/mp3" id={item.key} className={item.key.toLowerCase() + "clip"} src={item.instrument}></audio>{item.key}</button>
             </React.Fragment>)}
         </div>
         <div className='display-container'>
