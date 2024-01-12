@@ -1,6 +1,6 @@
 
 .container{
-  background-color: aquamarine;
+  background-color: rgb(3, 1, 63);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -8,18 +8,20 @@
 }
 
 #drum-machine{
-  background-color: azure;
- border: solid black 3px;
+  background-color: #292929ee;
+ border: solid rgb(250, 9, 118) 3px;
  width: 500px;
  height: 300px;
  display: flex;
  justify-content: center;
  align-items: center;
+ box-shadow: -1px 6px 68px 0px rgba(206,33,33,0.75);
+-webkit-box-shadow: -1px 6px 68px 0px rgba(206,33,33,0.75);
+-moz-box-shadow: -1px 6px 68px 0px rgba(206,33,33,0.75);
 }
 .drum-pad-container{
   width: 200px;
   height: 200px;
-  border:  solid red 1px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -42,7 +44,6 @@
 .display-container{
   width: 200px;
   height: 200px;
-  border:  solid red 1px;
   display: flex;
   flex-direction: column;
   padding: 50px 0;
@@ -54,7 +55,8 @@
 #display{
   width: 150px;
   height: 30px;
-  text-align: center;
-  border: solid blueviolet 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: whitesmoke;
 }

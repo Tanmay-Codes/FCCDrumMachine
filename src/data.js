@@ -11,47 +11,56 @@ import closedHH from "../src/assets/closed.mp3"
 const data = [{
     id:1,
     key:"Q",
-    instrument : heater1
+    instrument : heater1,
+    desc : "heater 1"
 },
 {
     id:2,
     key:"W",
-    instrument : heater2
+    instrument : heater2,
+    desc : "heater 2"
 },
 {
     id:3,
     key:"E",
-    instrument : heater3
+    instrument : heater3,
+    desc : "heater 3"
 },
 {
     id:4,
     key:"A",
-    instrument : heater4
+    instrument : heater4,
+    desc : "heater 4"
 },
 {
     id:5,
     key:"S",
-    instrument : clap
+    instrument : clap,
+    desc : "clap"
 },
 {
     id:6,
     key:"D",
-    instrument : openHH
+    instrument : openHH,
+    desc : "open HH"
 },
 {
     id:7,
     key:"Z",
-    instrument : kickHH
+    instrument : kickHH,
+    desc : "Kick HH"
 },
 {
     id:8,
     key:"X",
-    instrument : kick
+    instrument : kick,
+    desc : "Kick"
 },
 {
     id:9,
     key:"C",
-    instrument : closedHH
+    instrument : closedHH,
+    desc : "Closed HH"
 },
 ]
 
